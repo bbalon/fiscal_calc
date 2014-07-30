@@ -25,4 +25,12 @@ class FiscalCalcTest < ActiveSupport::TestCase
     assert_equal Date.new(2014,6,27), Date.new(2014,6,26).fiscal_month_end
   end
 
+  test "Fiscal month previous" do
+    assert_equal Date.new(2014,7,25), Date.new(2014,8,1).fiscal_p_month_end
+    assert_equal Date.new(2014,7,25), Date.new(2014,8,21).fiscal_p_month_end
+    assert_equal Date.new(2014,7,25), Date.new(2014,7,26).fiscal_p_month_end
+    assert_equal Date.new(2014,6,27), Date.new(2014,7,24).fiscal_p_month_end
+    assert_equal Date.new(2014,7,25), Date.new(2014,7,25).fiscal_p_month_end
+  end
+
 end
