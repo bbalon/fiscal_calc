@@ -7,11 +7,11 @@ require "fiscal_calc/version"
 Gem::Specification.new do |s|
   s.name        = "fiscal_calc"
   s.version     = FiscalCalc::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Blaz Balon"]
+  s.email       = ["blaz.balon@laly.si"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of FiscalCalc."
-  s.description = "TODO: Description of FiscalCalc."
+  s.summary     = "Calculator for fiscal years"
+  s.description = "Calculator for fiscal years"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
