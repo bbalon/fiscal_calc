@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = FiscalCalc::VERSION
   s.authors     = ["Blaz Balon"]
   s.email       = ["blaz.balon@laly.si"]
-  s.homepage    = "TODO"
+  s.homepage    = ""
   s.summary     = "Calculator for fiscal years"
   s.description = "Calculator for fiscal years"
   s.license     = "MIT"
